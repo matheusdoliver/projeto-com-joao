@@ -38,7 +38,7 @@ header {
 }
 header > h1 {
    margin-top: 50px;
-   font-size: 3em;
+   font-size: 2.5em;
 }
 header > p {
     margin-bottom: 50px;
@@ -47,12 +47,12 @@ header > p {
 section{
     padding: 2em;
 }
-.normal {
+section.normal {
     background-color: white;
     
 }
 
-.diferente {
+section.diferente {
     color: rgba(255, 255, 255, 0.838);
     background: black url(imagem/fullmetal.jpg) top right no-repeat fixed ;
     background-size: cover;
@@ -63,6 +63,12 @@ section{
     display: inline-block;
     max-width: 400px;
     padding: 1em;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+#one {
+    background: black url(imagem/CAPA.jpg) top right no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.681);
 }
 footer {
     text-align: center;
