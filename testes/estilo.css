@@ -19,6 +19,7 @@ h2 {
 body{
     background-color: rgba(137, 43, 226, 0.551);
     min-height: 98vh;
+    min-width: 5vw;
 }
 
 a {
